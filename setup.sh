@@ -20,3 +20,6 @@ ln -sf $DIR/src/node@14.sh $DIR/bin/node-shell
 
 # Echo the file locations
 ls -lrt -d -1 $DIR/bin/*
+
+# Echo out the bin path
+echo "PATH=\"\$PATH:$DIR/bin\""
