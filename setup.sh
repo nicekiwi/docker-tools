@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# Create link
-ln -s ./src/php@7.4.sh ./bin/php
-
 # Set permissions
-chmod 775 ./bin/php
+chmod 755 `pwd`/src/*.sh
 
-# Echo the location
-pwd ./bin/php
+# Create links
+ln -sf `pwd`/src/php@7.4.sh `pwd`/bin/php
+ln -sf `pwd`/src/composer@2.sh `pwd`/bin/composer
+
+# Echo the file locations
+ls -lrt -d -1 `pwd`/bin/*
