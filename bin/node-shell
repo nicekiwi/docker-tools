@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run NodeJS shell
+sh -c "docker run --rm -it -w /app --volume $PWD:/app --user $(id -u):$(id -g) node:14 $*"

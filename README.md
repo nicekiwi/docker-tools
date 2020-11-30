@@ -17,5 +17,3 @@ Run
 ```
 ./setup.sh
 ```
-
-I can then add the `~/code/docker-tools/bin` path to `$PATH` and/or set the VS Code path(s) to one of the printed paths.
