@@ -1,11 +1,19 @@
 #!/bin/bash
 
+DIR=`pwd`
+
 # Set permissions
-chmod 755 `pwd`/src/*.sh
+chmod 755 $DIR/src/*.sh
+
+# Remove old links
+rm -rf $DIR/bin
+
+# Make new folder
+mkdir $DIR/bin
 
 # Create links
-ln -sf `pwd`/src/php@7.4.sh `pwd`/bin/php
-ln -sf `pwd`/src/composer@2.sh `pwd`/bin/composer
+ln -sf $DIR/src/php@7.4.sh $DIR/bin/php
+ln -sf $DIR/src/composer@2.sh $DIR/bin/composer
 
 # Echo the file locations
-ls -lrt -d -1 `pwd`/bin/*
+ls -lrt -d -1 $DIR/bin/*
