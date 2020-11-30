@@ -12,7 +12,8 @@ rm -rf $DIR/bin
 mkdir $DIR/bin
 
 # Create links
-ln -sf $DIR/src/php@7.4.sh $DIR/bin/php
+ln -sf $DIR/src/php@7.4.sh $DIR/bin/php7
+ln -sf $DIR/src/php@8.0.sh $DIR/bin/php8
 ln -sf $DIR/src/composer@2.sh $DIR/bin/composer
 ln -sf $DIR/src/laravel-installer.sh $DIR/bin/laravel-installer
 
