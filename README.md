@@ -1,6 +1,8 @@
-# Docker Tools for Visual Studio Code
+# Docker Tools
 
-My collection of wrappers to run tools via Docker in VSCode.
+My collection of wrappers to run tools via Docker.
+
+> TL;DR Don't use PHP Extensions in VS Code requiring a local PHP executable. Use https://intelephense.com/ instead, it's worth paying for. Ext: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client.
 
 ## Supports
 
