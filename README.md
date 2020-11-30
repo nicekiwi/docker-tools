@@ -2,7 +2,8 @@
 
 My collection of wrappers to run tools via Docker in VSCode.
 
-## PHP 7.4
+## Supports
+- PHP 7.4
 
 Run
 ```
