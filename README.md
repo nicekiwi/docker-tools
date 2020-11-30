@@ -8,6 +8,7 @@ My collection of wrappers to run tools via Docker in VSCode.
 - PHP 8.0
 - Composer 2
 - Laravel Installer
+- NodeJS LTS 14
 
 Run
 
