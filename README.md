@@ -3,9 +3,14 @@
 My collection of wrappers to run tools via Docker in VSCode.
 
 ## Supports
+
 - PHP 7.4
+- PHP 8.0
+- Composer 2
+- Laravel Installer
 
 Run
+
 ```
 ./setup.sh
 ```
